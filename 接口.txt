@@ -35,3 +35,8 @@
 10.更改二级分类
   接口:/api/back/amendClassTwo
   传参:oldenname_two,enname_two,cnname_two
+
+11.获取所有文章列表
+  接口:/api/back/article/getArticleList
+  将标识添加入文章列表
+  传参:articleData,onClass,twoClass
