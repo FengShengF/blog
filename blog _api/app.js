@@ -32,7 +32,8 @@ app.use('/api',userr)
 var addJK = require('./api/back/class');
 app.use('/api/back',addJK)
 
-
+var addArticle = require('./api/back/article');
+app.use('/api/ariticle',addArticle)
 
 
 
