@@ -18,7 +18,6 @@ import axios from "axios"
 
 Vue.use(vueAxios,axios)
 
-
 router.beforeEach((to,from,next)=>{
   if(to.path=="/login"){
     next()
